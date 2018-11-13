@@ -1,0 +1,92 @@
+body {
+    background-image: url(../images/got_map.jpg);
+}
+.main{
+    position: relative;
+    left:450px;
+    
+}
+
+#choice{
+    font-size: 30px;
+    position: relative;
+    top:10px;
+    left: 200px;
+    color: #E8B80C;
+}
+.card{
+  width: 150px;
+    padding: 0;
+    margin: 10px;
+    float: left;  
+    
+}
+.card-body{
+    padding: 0;
+}
+.card-header{
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+.card-img-top{
+    width: 150px;
+    height: 150px;
+}
+.card-text{
+    text-align: center;
+    position: relative;
+    padding: 0;
+
+}
+#challengeZone {
+    position: absolute;
+    left:30%;
+    top: 45%;
+/*    display: none;*/
+}
+#defenderZone{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    border-left: 5px ridge #E8B80C;
+    height: 50%;
+/*    display: none;*/
+    padding-left: 70px;
+    
+}
+#card{
+    position: absolute;
+    right: -200px;
+    
+    
+}
+#attack{
+   position: absolute; 
+   top : 80%;
+   left: 45%;
+/*   display: none;*/
+}
+#score{
+/*    color: #E8B80C;*/
+    
+    font-family: "Poor Story";
+    font-weight: bold;
+    border: 1px solid green;
+    border-radius: 5px;
+    background: #E8B80C;
+    position: absolute;
+    top:570px;
+    left:25%;
+}
+
+
+
+
+
+
+
+
+
+
+
