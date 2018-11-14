@@ -1,10 +1,16 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url(../images/got_map.jpg);
+    background-image: url(../images/map2.jpg);
+/*    background-repeat: no-repeat;*/
+    background-size: cover;
 }
 .main{
-    position: relative;
+    position: absolute;
     left:450px;
-    
 }
 
 #choice{
@@ -67,6 +73,12 @@ body {
    left: 45%;
 /*   display: none;*/
 }
+#reset{
+   position: relative; 
+   top:605px;
+   left: 600px;
+/*   display: none;*/
+}
 #score{
 /*    color: #E8B80C;*/
     
@@ -76,8 +88,20 @@ body {
     border-radius: 5px;
     background: #E8B80C;
     position: absolute;
-    top:570px;
-    left:25%;
+    padding: 10px;
+    top:10%;
+    right:10%;
+}
+#msg{
+    font-family: "Poor Story";
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top:25%;
+    right:12%;
+    padding: 15px;
+    border-radius: 5px;
+    background: #E8B80C;
 }
 
 
