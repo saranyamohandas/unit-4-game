@@ -20,10 +20,7 @@ $(document).ready(function(){
         var child = 1 + i;
         $(id + child).find('p:last').text('HP:' + combatPoints[i].hp);
     }
-//    $('#avatar1').find('p:last').text('HP:' + combatPoints[0].hp);
-//    $('#avatar2').find('p:last').text('HP:' + combatPoints[1].hp);
-//    $('#avatar3').find('p:last').text('HP:' + combatPoints[2].hp);
-//    $('#avatar4').find('p:last').text('HP:' + combatPoints[3].hp);
+
     $('#challengeZone').hide();
     $('#defenderZone').hide();
     $('#attack').hide();
@@ -76,6 +73,7 @@ $(document).ready(function(){
             
         }
     });
+    //update HP  for both player and enemy for every attack and counter attack
     $('#attack').click(function(){
        
        
@@ -101,6 +99,7 @@ $(document).ready(function(){
 
         
     });
+    //get attack points for both player and defender
     function getCombatAp(attacker){
         for(i=0;i<combatPoints.length; i++){
                 if(combatPoints[i].name == attacker){
@@ -111,6 +110,7 @@ $(document).ready(function(){
             }
             }
     }
+    //check winner
     function checkWinner(challengerHP,defenderHP){
         console.log(challengerHP);
         if (challengerHP <= 0){
@@ -140,6 +140,7 @@ $(document).ready(function(){
             
         } 
     }
+    //reset game
     $("#reset").click(function(){
         location.reload();
         
