@@ -1,8 +1,8 @@
-# unit-4-game
+# Jquery game
 
 ---
 
-Homework #3B -unit-4-game - Challenger and defenders
+Challenger and defenders
 ___
 
 ### This is a interactive Game of thrones RPG game application that has been developed using HTML,CSS,bootstrap,javascript and jquery library.
